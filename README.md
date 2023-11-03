@@ -28,8 +28,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 # Backend
 
 how does the prlxdrop contract work?
-Detailed breakdown of how the PRLX drop works using the contract:
-
+Detailed breakdown of how the PRLX drop works using the contract
     A Merkle root hash is specified when the contract is deployed. This hash is derived from a Merkle tree structure, which is a cryptographic data structure used to efficiently prove the membership of an element in a set.
 
     Eligible recipients who are entitled to receive PRLX tokens are provided with a specific Merkle proof that demonstrates their eligibility based on the Merkle root hash. This proof is created using their address and the amount they are supposed to receive.
