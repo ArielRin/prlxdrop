@@ -44,6 +44,7 @@ The contract owner has the ability to retrieve any remaining funds from the cont
 
 In summary, the "PRLX drop" refers to the distribution of PRLX tokens to eligible recipients using the "PrlxAirdrop" contract, which relies on Merkle proofs to verify eligibility and prevent duplicate claims. The contract owner has control over the distribution process and remaining funds.
 
+
 ## Generate Merkle Root
 
 
