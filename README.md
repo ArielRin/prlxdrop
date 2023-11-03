@@ -1,5 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project. Launched on Netlify!
 
+Development progress
+https://gorgeous-cheesecake-ee06a1.netlify.app/
 ## Getting Started
 
 First, run the development server:
