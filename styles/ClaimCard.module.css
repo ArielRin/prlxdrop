@@ -45,7 +45,7 @@
 
 
 .btn {
-  background-color: #0c90f6;
+  background-color: #0b4e85;
   width: 30%;
   display: flex;
   justify-content: center;
@@ -58,7 +58,7 @@
   cursor: pointer;
   border-radius: 0.9rem;
   font-size: 1.2rem;
-  border: 1px solid #730cf6;
+  border: 1px solid #d82575;
 }
 
 .recentWinnerTitle {
@@ -68,6 +68,16 @@
   text-align: center;
   margin-top: 20px;
 }
+
+
+.Spacing10 {
+  margin-top: 10px; /* You can adjust the value to control the amount of spacing */
+}
+
+.Spacing20 {
+  margin-top: 20px; /* You can adjust the value to control the amount of spacing */
+}
+
 
 .winner {
   font-size: 1.5rem;
@@ -88,7 +98,7 @@
   justify-content: center;
   margin: 0 auto;
   width: 20%;
-  border: 1px solid #3c4fff;
+  border: 1px solid #d82575;
   border-radius: 1.2rem;
   padding: 10px 20px;
   font-size: 1.3rem;

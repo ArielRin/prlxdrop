@@ -10,7 +10,7 @@ body {
   background-size: cover; /* You can adjust this to your needs */
   background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWs0bzVxMXUyaWV6cHdoa3E4a3B1bGs4OXE2a2Q5NHZwNmZtMGZ4ZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l41lQsh0iOvne52yA/giphy.gif");
   background-repeat: no-repeat;
-    background-color: rgba(12, 12, 12, 0.7);
+  background-color: rgba(12, 12, 12, 0.7);
   background-attachment: fixed;
   font-family: 'Roboto', sans-serif;
 }
