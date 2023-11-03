@@ -25,7 +25,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-# Backend
+## Backend
 
 how does the prlxdrop contract work?
 Detailed breakdown of how the PRLX drop works using the contract
@@ -44,7 +44,7 @@ The contract owner has the ability to retrieve any remaining funds from the cont
 
 In summary, the "PRLX drop" refers to the distribution of PRLX tokens to eligible recipients using the "PrlxAirdrop" contract, which relies on Merkle proofs to verify eligibility and prevent duplicate claims. The contract owner has control over the distribution process and remaining funds.
 
-# Generate Merkle Root
+## Generate Merkle Root
 
 
 ```bash
@@ -66,7 +66,7 @@ e.g.
 }
 etc......
 
-# Hardhat Delpoy
+## Hardhat Delpoy
 
 ```bash
 npm run deploy
@@ -74,4 +74,4 @@ npm run deploy
 yarn deploy
 ```
 
-# Cheyne 2023 Big Brother Wombat Dapp Creation and Solidity Development
+## Cheyne 2023 Big Brother Wombat Dapp Creation and Solidity Development
