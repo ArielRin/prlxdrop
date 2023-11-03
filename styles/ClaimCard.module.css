@@ -45,8 +45,8 @@
 
 
 .btn {
-  background-color: #1e2128;
-  width: 50%;
+  background-color: #0c90f6;
+  width: 30%;
   display: flex;
   justify-content: center;
   place-self: center;
@@ -56,10 +56,9 @@
   text-decoration: none;
   margin-top: 20px;
   cursor: pointer;
-  border-radius: 1.5rem;
-  font-weight: bolder;
-  font-size: 1.5rem;
-  border: 1px solid #fff;
+  border-radius: 0.9rem;
+  font-size: 1.2rem;
+  border: 1px solid #730cf6;
 }
 
 .recentWinnerTitle {
@@ -83,7 +82,7 @@
 }
 
 .drawWinnerBtn {
-  background-color: #242833;
+  background-color: #101d9b;
   display: flex;
   align-items: center;
   justify-content: center;

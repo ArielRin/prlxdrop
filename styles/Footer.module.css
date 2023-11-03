@@ -18,7 +18,7 @@
   align-items: center;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 0px;
+  padding: 0 10px;
 }
 
 .leftColumn {
@@ -40,6 +40,8 @@
 .companyName {
   font-weight: bold;
   text-decoration: none;
+  color: #0c90f6;
+
 }
 
 .social-links a {
