@@ -1,0 +1,46 @@
+.wrapper {
+  background-color: rgba(12, 12, 12, 0.7);
+  min-height: 200px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 2rem;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+/* Logo.module.css */
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px;
+  width: 100%;
+  height: 400px; /* Change the height to double the size */
+}
+
+/* Logo.module.css */
+.logoContainer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 990px;
+  width: 100%;
+  height: 100px; /* Change the height to double the size */
+}
+
+.logoImage {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  max-height: 100%; /* Ensure the image does not exce
+  transform: scale(2); /* Double the size of the image using the CSS transform property */
+}
+
+.logoImage1 {
+  max-width: 100%; /* Ensure the image does not exceed the container width */
+  max-height: 100%; /* Ensure the image does not exce
+  transform: scale(2); /* Double the size of the image using the CSS transform property */
+}

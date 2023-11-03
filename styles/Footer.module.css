@@ -1,0 +1,67 @@
+/* Footer.module.css */
+
+/* Footer.module.css */
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.leftColumn {
+  text-align: left;
+}
+
+.rightColumn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rightColumn a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Add 3 units of margin between links */
+}
+
+.companyName {
+  font-weight: bold;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Adjust the spacing between social icons */
+}
+
+
+/* Add more styles as needed */
+
+.white {
+  margin-left: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Add more styles as needed */
+/* Footer.module.css */
+
+
+/* Add more styles as needed */

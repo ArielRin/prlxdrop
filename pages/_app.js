@@ -10,3 +10,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+// pages/_app.js (if you have one)
