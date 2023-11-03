@@ -49,7 +49,7 @@ const PrlxClaim = () => {
         Peet DeFi - Parallex Migration
       </div>
         <div className={style.title}>
-          PRLX Migration{' '}
+          {' '}
         </div>
       <div className={style.paragragh}>
        Peet Defi Snapshot Taken Claim your PRLX Tokens below
