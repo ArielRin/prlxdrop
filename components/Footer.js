@@ -8,18 +8,18 @@ const Footer = () => {
         <div className={style.leftColumn}>
           <div className={style.companyName}>Parallex 2023</div>
         </div>
-        <div className={style.rightColumn}>
-          <a href="https://parallaxdefi.io" target="_blank" rel="noopener noreferrer">
-            <img src="/social-website.png" alt="Website" />
+        <div className={`${style.rightColumn} ${style.socialLinksContainer}`}>
+          <a href="https://parallaxdefi.io" target="_blank" rel="noopener noreferrer" className={style.socialLink}>
+            <img src="/webpage.png" alt="Website" style={{ width: '80%' }} />
           </a>
-          <a href="https://twitter.com/DefiPter" target="_blank" rel="noopener noreferrer">
-            <img src="/social-twitter.png" alt="Twitter" />
+          <a href="https://twitter.com/DefiPter" target="_blank" rel="noopener noreferrer" className={style.socialLink}>
+            <img src="/twitter.png" alt="Twitter" style={{ width: '80%' }} />
           </a>
-          <a href="https://t.me/peetdefi" target="_blank" rel="noopener noreferrer">
-            <img src="/social-telegram.png" alt="Telegram" />
+          <a href="https://t.me/peetdefi" target="_blank" rel="noopener noreferrer" className={style.socialLink}>
+            <img src="/telegram.png" alt="Telegram" style={{ width: '80%' }} />
           </a>
-          <a href="https://github.com/ArielRin/prlxdrop" target="_blank" rel="noopener noreferrer">
-            <img src="/social-github.png" alt="GitHub" />
+          <a href="https://github.com/ArielRin/prlxdrop" target="_blank" rel="noopener noreferrer" className={style.socialLink}>
+            <img src="/github.png" alt="GitHub" style={{ width: '80%' }} />
           </a>
         </div>
       </div>

@@ -3,7 +3,7 @@
 /* Footer.module.css */
 
 .footer {
-  background-color: #333;
+  background-color: rgba(12, 12, 12, 0.9);
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -18,7 +18,7 @@
   align-items: center;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 .leftColumn {
@@ -34,14 +34,27 @@
 .rightColumn a {
   text-decoration: none;
   color: #fff;
-  margin-right: 10px; /* Add 3 units of margin between links */
+  margin-right: 3px; /* Add 3 units of margin between links */
 }
 
 .companyName {
   font-weight: bold;
+  text-decoration: none;
 }
 
 .social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Adjust the spacing between social icons */
+}
+
+.socialLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.socialLink {
   text-decoration: none;
   color: #fff;
   margin-right: 10px; /* Adjust the spacing between social icons */
