@@ -30,9 +30,9 @@ const PrlxClaim = () => {
           from: accounts[0],
           value: web3.utils.toWei('100', 'ether'), // Sending 100 PWR, adjust as needed
         });
-        console.log('Tokens Claimed successfully');
+        console.log('Tokens Claim successfully');
       } catch (error) {
-        console.error('Error entering the lottery', error);
+        console.error('Error claiming', error);
       }
     } else {
       console.error('Web3 is not initialized. Make sure you have a compatible wallet and network connected.');
