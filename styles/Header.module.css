@@ -37,10 +37,10 @@
 
 .loginBtn {
   margin-right: 20px;
-  font-size: 1rem;
+  font-size: 0.7rem;
   cursor: pointer;
-  border: 1px solid #464c5a;
-  background-color: #3e4754;
+  border: 1px solid #d82575;
+  background-color: #0b4e85;
   border-radius: 1.5rem;
   padding: 10px;
   color: #f0f4fa;

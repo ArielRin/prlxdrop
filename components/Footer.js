@@ -19,7 +19,7 @@ const Footer = () => {
             <img src="/telegram.png" alt="Telegram" style={{ width: '80%' }} />
           </a>
           <a href="https://github.com/ArielRin/prlxdrop" target="_blank" rel="noopener noreferrer" className={style.socialLink}>
-            <img src="/github.png" alt="GitHub" style={{ width: '80%' }} />
+            <img src="/github1.png" alt="GitHub" style={{ width: '80%' }} />
           </a>
         </div>
       </div>

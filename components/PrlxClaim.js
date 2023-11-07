@@ -105,7 +105,7 @@ const PrlxClaim = () => {
       </div>
       <div className={style.paragragh}></div>
       <div className={style.btn} onClick={claimTokens}>
-        Claim your PRLX
+        Claim
       </div>
 
       <div className={style.Spacing20}></div>
