@@ -9,7 +9,6 @@ export default function Home() {
     <div className={style.wrapper}>
       <Header />
       <PrlxClaim />
-      <Logo />
             <Footer />
     </div>
   )
