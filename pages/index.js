@@ -10,7 +10,6 @@ export default function Home() {
     <div className={style.wrapper}>
       <Header />
       <PrlxClaim />
-      <StakeTest00001 />
       <Logo />
             <Footer />
     </div>
