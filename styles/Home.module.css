@@ -1,4 +1,109 @@
 .wrapper {
   background-color: rgba(12, 12, 12, 0.5);
-  padding-bottom: 30px;
+  padding-bottom: 20px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* This ensures the container takes at least the full height of the viewport */
+}
+
+.content {
+  flex: 1; /* This makes the content div take up the remaining vertical space */
+}
+
+/* Your existing styles for Header, PrlxClaim, StakeTest00001, and Logo go here */
+/* Footer.module.css */
+
+/* Footer.module.css */
+
+.footer {
+  background-color: rgba(12, 12, 12, 0.9);
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.leftColumn {
+  text-align: left;
+}
+
+.rightColumn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.rightColumn a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 3px; /* Add 3 units of margin between links */
+}
+
+.companyName {
+  font-weight: bold;
+  text-decoration: none;
+  color: #0c90f6;
+
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Adjust the spacing between social icons */
+}
+
+.socialLinksContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.socialLink {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px; /* Adjust the spacing between social icons */
+}
+
+
+/* Add more styles as needed */
+
+.white {
+  margin-left: 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Add more styles as needed */
+/* Footer.module.css */
+
+
+/* Add more styles as needed */
+.stakingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tabsContainer {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
 }

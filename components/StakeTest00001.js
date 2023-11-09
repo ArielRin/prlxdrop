@@ -1,5 +1,5 @@
 // pages/staking.js
-import style from '../styles/ClaimCard.module.css';
+import style from '../styles/stake.module.css';
 import { useEffect, useState } from 'react';
 import { ethers } from 'ethers';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
@@ -463,48 +463,64 @@ const StakingPage = () => {
 
   return (
     <div className={style.wrapper}>
-      <div className={style.title}>
-        Staking Page
-      </div>
-      <div className={style.paragragh}>
-        Connected Account: {account}
-      </div>
+      <div className={style.stakingContainer}>
+        <div className={style.title}>
+          Staking Page
+        </div>
+        <div className={style.paragraph}>
+          Connected Account
+        </div>
+        <div className={style.paragraph}>
+          {account}
+        </div>
 
         <Tabs>
-          <TabList>
-            <Tab style={{ background: '#6a5acd', color: 'white' }}>Create Stake</Tab>
+          <TabList className={style.tabsContainer}>
+            <Tab style={{ background: '#6a5acd', color: 'white'  }}>Create Stake</Tab>
             <Tab style={{ background: '#483d8b', color: 'white' }}>Manage Stakes</Tab>
           </TabList>
 
-          <TabPanel>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <label>
-              Stake Amount:
-              <input type="number" value={stakeAmount} onChange={(e) => setStakeAmount(e.target.value)} />
-            </label>
-          </div>
-          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <label>
-              Staking Package:
-              <input type="number" value={stakingPackage} onChange={(e) => setStakingPackage(e.target.value)} />
-            </label>
-          </div>
+                  <TabPanel>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                    <label>
+                      <input type="number" value={stakeAmount} onChange={(e) => setStakeAmount(e.target.value)} />
+                    </label>
 
-            <button onClick={handleCreateStake}>Create Stake</button>
-          </TabPanel>
+                              <div className={style.paragraghbtn}
+                               onClick={handleCreateStake}>
+                                Stake
+                              </div>
+                  </div>
 
-          <TabPanel>
-            <button onClick={handleRemoveAllStakes}>Remove All Stakes</button>
-            <button onClick={handleClaimRewards}>Claim Rewards</button>
-
-            <div>
-              <h2>Staking Information</h2>
-              <p>Total Stakes: {totalStakes}</p>
-              <p>Total Rewards Distributed: {totalRewardDistributed}</p>
-            </div>
-          </TabPanel>
+                  </TabPanel>
+                  <TabPanel>
+                  <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                          <div className={style.paragraghbtn}
+                             onClick={handleRemoveAllStakes}>
+                            Remove All
+                          </div>
+                    <div>
+                    <div className={style.paragragh}>
+                      <h2>Staking Information</h2>
+                    </div>
+                    <div className={style.paragragh}>
+                      <p>Total Staked Amount</p>
+                    </div>
+                    <div className={style.paragragh}>
+                      <p>{totalStakes}</p>
+                    </div>
+                    <div className={style.paragragh}>
+                      <p>Rewards Distributed</p>
+                    </div>
+                    <div className={style.paragragh}>
+                        <p> {totalRewardDistributed}</p>
+                    </div>
+                    </div>
+                  </div>
+                  </TabPanel>
         </Tabs>
       </div>
+    </div>
     );
   };
 
